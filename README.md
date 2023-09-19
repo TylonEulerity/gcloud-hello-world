@@ -1,8 +1,5 @@
-# App Engine Java Guestbook
+# App Engine Java Empty app
 
-This archetype is no longer actively developed or maintained.
+This project was created for the google issue tracker to show that jsps are not working on appengine
 
-We suggest that you use these archetypes for your project:
-* Google App Engine skeleton Archetype (appengine-skeleton-archetype)
-* Google App Engine standard environment Archetype (appengine-standard-archetype)
-* Google App Engine flexible environment Archetype (appengine-flexible-archetype)
+
