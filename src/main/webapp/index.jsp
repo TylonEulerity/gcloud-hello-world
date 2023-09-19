@@ -3,4 +3,11 @@
 	  
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
-hello world jsp
+<html>
+<body>
+<p>This is the hello world jsp</p>
+<p>Go home <a href="/">here</a>
+<p>See servlet  <a href="/HelloWorld">here</a>
+</body>
+</html>
+
