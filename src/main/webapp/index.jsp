@@ -5,7 +5,7 @@
 
 <html>
 <body>
-<p>This is the hello world jsp</p>
+<p>This is the hello world jsp page</p>
 <p>Go home <a href="/">here</a>
 <p>See servlet  <a href="/HelloWorld">here</a>
 </body>

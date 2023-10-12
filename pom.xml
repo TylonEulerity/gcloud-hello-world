@@ -39,8 +39,8 @@
 				<artifactId>appengine-maven-plugin</artifactId>
 				<version>${appengine.maven.version}</version>
 				<configuration>
-					<!--					<cloudSdkVersion>450.0.0</cloudSdkVersion>-->
-					<cloudSdkVersion>449.0.0</cloudSdkVersion>
+					<cloudSdkVersion>450.0.0</cloudSdkVersion>
+<!--					<cloudSdkVersion>449.0.0</cloudSdkVersion>-->
 					<devserver.host>0.0.0.0</devserver.host>
 					<devserver.port>8080</devserver.port>
 					<devserver.jvmFlags>
