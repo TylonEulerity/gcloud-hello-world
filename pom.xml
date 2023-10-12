@@ -10,15 +10,15 @@
 	<artifactId>bar</artifactId>
 
 
-    <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <appengine.version>2.0.19</appengine.version>
-<appengine.maven.version>2.4.4</appengine.maven.version>
-    </properties>
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<appengine.version>2.0.20</appengine.version>
+		<appengine.maven.version>2.5.0</appengine.maven.version>
+	</properties>
 
-<dependencies>
+	<dependencies>
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
@@ -30,7 +30,7 @@
 			<artifactId>appengine-api-1.0-sdk</artifactId>
 			<version>${appengine.version}</version>
 		</dependency>
-</dependencies>
+	</dependencies>
 
 	<build>
 		<plugins>
@@ -39,6 +39,8 @@
 				<artifactId>appengine-maven-plugin</artifactId>
 				<version>${appengine.maven.version}</version>
 				<configuration>
+					<!--					<cloudSdkVersion>450.0.0</cloudSdkVersion>-->
+					<cloudSdkVersion>449.0.0</cloudSdkVersion>
 					<devserver.host>0.0.0.0</devserver.host>
 					<devserver.port>8080</devserver.port>
 					<devserver.jvmFlags>
